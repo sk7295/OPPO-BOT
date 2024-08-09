@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const logger = require("./utils/log.js");
 
-const PORT = process.env.PORT || 8888 || 9999;
+const PORT = process.env.PORT || 8080 || 9999;
 
 app.get("/", function (request, response) {
   const result =
